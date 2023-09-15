@@ -207,8 +207,6 @@ class DMRCNet(nn.Module):
         self.of4 = FAM(256)
         
 
-
-
     def forward(self, x):
         batch_size = x.size(0)
 
@@ -265,7 +263,5 @@ class DMRCNet(nn.Module):
         x = self.linear3(x)                                            
         
         return x
-
-    eigenvals, eigenvecs = torch.linalg.eig(mat, eigenvectors=True)
 
 
