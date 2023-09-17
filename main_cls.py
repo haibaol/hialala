@@ -6,7 +6,7 @@ import torch.nn as nn
 import torch.optim as optim
 from torch.optim.lr_scheduler import CosineAnnealingLR
 from util.data_util import ModelNet40
-from model.DMRCNet_cls import DMRCNet
+from model.DMRCNet import DMRCNet
 
 import numpy as np
 from torch.utils.data import DataLoader
