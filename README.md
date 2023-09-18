@@ -9,5 +9,5 @@ numpy==1.21.6<br />
 *Download dataset from [**ScanObjectNN**](http://shapenet.cs.stanford.edu/shapenet) Projcet, and unzip it to data/h5_files
 <br />
 <br />
-![image](https://github.com/haibaol/hialala/blob/main/imgs/Part%20Segmentation%20visualization.jpg?raw=true)
+![image width = "200",height = "300"](https://github.com/haibaol/hialala/blob/main/imgs/Part%20Segmentation%20visualization.jpg?raw=true)
 Our code will be continuously updated in the future.
